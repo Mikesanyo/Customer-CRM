@@ -1,0 +1,23 @@
+<form>
+  <!--<form ngForm #stamName="ngForm"> so now im able to customize it too -->
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label>User name </label>
+      <input ngModel required #refUserName="ngModel" #username name="first" type="text" class="form-control" />
+      <br>
+      <span *ngIf="refUserName.touched && refUserName.invalid" class="alert alert-danger">User name is required</span>
+    </div>
+
+    <div class="form-group col-md-6">
+      <label> Password</label>
+      <input ngModel required #refPass="ngModel" #pass type="password" name="last" class="form-control" />
+      <br>
+      <span *ngIf="refPass.touched && refPass.invalid" class="alert alert-danger">Password is required</span>
+    </div>
+    <br>
+  </div>
+
+  <div class="form-row">
+    <button class="btn btn-success" (click)="login(username.value,pass.value)">Login</button>
+  </div>
+</form>

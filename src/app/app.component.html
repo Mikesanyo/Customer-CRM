@@ -1,0 +1,14 @@
+<div class="sidenav">
+  <a routerLink="customers">Customers</a>
+  <a routerLink="contacts">Contacts</a>
+  <button class="btn btn-success btn1" *ngIf="isLoggedIn" (click)="logout()"> LogOut</button>
+</div>
+
+<div class="main">
+
+
+  <router-outlet>
+  </router-outlet>
+  
+
+</div>
