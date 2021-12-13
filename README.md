@@ -15,10 +15,8 @@ Create new customer
 
 Edit Customer
 
-<img src="https://user-images.githubusercontent.com/90139099/145850677-0f4be85b-d3b9-4aec-94b0-4f203f87966d.gif" alt="Edit customer gif" width="600"/>
+<img src="https://user-images.githubusercontent.com/90139099/145907729-55c51d30-40a3-4277-8661-3358cc91e356.gif" alt="Edit customer gif" width="600"/>
 
 Contacts
 
 <img src="https://user-images.githubusercontent.com/90139099/145855512-a5ca5398-f536-44de-9cba-92287d20b180.gif" alt="Contacts gif" width="600"/>
-
-
